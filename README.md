@@ -1,2 +1,0 @@
-# Yelee
-Yelee Docs

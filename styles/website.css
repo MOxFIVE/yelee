@@ -1,0 +1,207 @@
+/* CSS for website */
+
+.center-align {
+    text-align: center;
+    text-decoration: none;
+}
+
+ul.summary > li > a {
+    font-size: 1.4em;
+}
+ul.summary a.custom-link {
+    font-size: 1.7em;
+    text-align: center;
+}
+
+ul.summary > li li a {
+    font-size: 1.05em;
+}
+
+.book-summary ul.summary li a,
+.book-summary ul.summary li span {
+    padding: .3em 1.05em;
+}
+
+.book-summary ul.summary li li a {
+    padding-left: 1.7em;
+}
+
+body,
+.book.font-family-1,
+.book-summary{
+    font-family: "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", "WenQuanYi Micro Hei", sans-serif;
+}
+
+.markdown-section code,
+.markdown-section pre {
+    font-family: Menlo, Consolas, "Source Code Pro", Inconsolata, Monaco, "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", "WenQuanYi Micro Hei", monospace;
+    background: rgba(white, .4);
+}
+
+.markdown-section h1,
+.markdown-section h2,
+.markdown-section h3,
+.summary a.custom-link{
+    font-family: Times, Georgia, serif;
+    font-weight: bold;
+}
+
+.markdown-section h2 {
+    border-bottom: 1px solid lightgray;
+}
+
+.markdown-section p {
+    margin-bottom: .5em;
+}
+
+ul.summary > li:first-child {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: Times, Georgia, serif;
+    background: #88acdb;
+    line-height: 1.8em;
+}
+
+ul.summary > li:first-child a
+,ul.summary > li:first-child.active > a {
+    color: white !important;
+    text-decoration: none;
+}
+
+,ul.summary > li:first-child a:hover {
+    text-decoration: none;
+}
+
+.markdown-section img {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background-color: rgba(0,0,0,.1);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    border-radius: 8px;
+    background-color: rgba(0,0,0,.2);
+}
+
+::-webkit-scrollbar-track {
+    background-color: white;
+}
+
+#page-footer hr {
+    height: 1px;
+    margin-bottom: .5em;
+}
+
+#page-footer p {
+    margin: 0;
+    text-align: right;
+    font-size: .8em;
+    color: gray;
+}
+
+#page-footer img {
+    display: inline-block;
+    zoom: .9;
+    margin-bottom: -.2em;
+}
+
+blockquote, pre {
+    box-shadow: 1px 1px 1px rgba(0,0,0, .1);
+}
+
+.markdown-section code {
+    padding: .22em .2em;
+    box-shadow: 1px 1px 1px rgba(0,0,0, .08);
+}
+
+.markdown-section pre code {
+    box-shadow: none;
+}
+
+blockquote.issue
+,blockquote.note
+,blockquote.example
+,blockquote.why
+,blockquote.advisement
+,blockquote.tip {
+    padding: .6em;
+    border: .5em;
+    border-left-style: solid;
+    page-break-inside: avoid;
+    color: black;
+}
+
+.note::before
+,.issue::before
+,.example::before
+,.why::before
+,.tip::before {
+    font-weight: bold;
+    font-family: Times, Georgia, serif;
+}
+
+blockquote.tip, blockquote.why {
+    border-color: hsl(120, 60%, 48%);
+    background: #E9FBE9;
+    overflow: auto;
+}
+
+.tip::before {
+    content: "Tip:\00a0";
+    color: limegreen;
+}
+
+blockquote.example {
+    border-color: #E0CB52;
+    background: #FCFAEE;
+    counter-increment: exampleno;
+    overflow: auto;
+    clear: both;
+}
+
+blockquote.note {
+    background: #e2eef9;
+    border-color: #bac6d3;
+    color: #246;
+}
+
+.note::before {
+    content: "Note:\00a0";
+}
+
+.example::before {
+    content: "Example:\00a0";
+    color: #827017;
+}
+
+blockquote.issue {
+    border-color: #E05252;
+    background: #FBE9E9;
+    counter-increment: issue;
+    overflow: auto;
+}
+
+.issue::before {
+    content: "ISSUE:\00a0";
+    color: #AE1E1E;
+}
+
+blockquote.advisement {
+    border-color: orange;
+    border-style: none solid;
+    background: #FFEECC;
+    text-align: center;
+}
+
+.no-underline:hover
+,.no-underline a:hover {
+    text-decoration: none;
+}

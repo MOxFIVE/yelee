@@ -1,0 +1,777 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'gitbook-plugin-search-pro',
+1 verbose cli   '--save' ]
+2 info using npm@2.15.1
+3 info using node@v4.4.3
+4 verbose install initial load of C:\data\book\package.json
+5 verbose installManyTop reading scoped package data from C:\data\book\node_modules\gitbook-plugin-localized-footer\package.json
+6 verbose installManyTop reading scoped package data from C:\data\book\node_modules\lodash\package.json
+7 verbose readDependencies loading dependencies from C:\data\book\package.json
+8 silly cache add args [ 'gitbook-plugin-search-pro', null ]
+9 verbose cache add spec gitbook-plugin-search-pro
+10 silly cache add parsed spec Result {
+10 silly cache add   raw: 'gitbook-plugin-search-pro',
+10 silly cache add   scope: null,
+10 silly cache add   name: 'gitbook-plugin-search-pro',
+10 silly cache add   rawSpec: '',
+10 silly cache add   spec: 'latest',
+10 silly cache add   type: 'tag' }
+11 silly addNamed gitbook-plugin-search-pro@latest
+12 verbose addNamed "latest" is being treated as a dist-tag for gitbook-plugin-search-pro
+13 info addNameTag [ 'gitbook-plugin-search-pro', 'latest' ]
+14 silly mapToRegistry name gitbook-plugin-search-pro
+15 silly mapToRegistry using default registry
+16 silly mapToRegistry registry https://registry.npmjs.org/
+17 silly mapToRegistry data Result {
+17 silly mapToRegistry   raw: 'gitbook-plugin-search-pro',
+17 silly mapToRegistry   scope: null,
+17 silly mapToRegistry   name: 'gitbook-plugin-search-pro',
+17 silly mapToRegistry   rawSpec: '',
+17 silly mapToRegistry   spec: 'latest',
+17 silly mapToRegistry   type: 'tag' }
+18 silly mapToRegistry uri https://registry.npmjs.org/gitbook-plugin-search-pro
+19 verbose addNameTag registry:https://registry.npmjs.org/gitbook-plugin-search-pro not in flight; fetching
+20 verbose request uri https://registry.npmjs.org/gitbook-plugin-search-pro
+21 verbose request no auth needed
+22 info attempt registry request try #1 at 01:23:45
+23 verbose request id 12cf1cb2d0287ed4
+24 verbose etag "5NJJD9DUCWFGA1OLZNXDYDR82"
+25 http request GET https://registry.npmjs.org/gitbook-plugin-search-pro
+26 http 304 https://registry.npmjs.org/gitbook-plugin-search-pro
+27 verbose headers { date: 'Wed, 15 Jun 2016 17:23:46 GMT',
+27 verbose headers   via: '1.1 varnish',
+27 verbose headers   'cache-control': 'max-age=300',
+27 verbose headers   etag: '"5NJJD9DUCWFGA1OLZNXDYDR82"',
+27 verbose headers   age: '157',
+27 verbose headers   connection: 'keep-alive',
+27 verbose headers   'x-served-by': 'cache-itm7424-ITM',
+27 verbose headers   'x-cache': 'HIT',
+27 verbose headers   'x-cache-hits': '2',
+27 verbose headers   'x-timer': 'S1466011426.370869,VS0,VE0',
+27 verbose headers   vary: 'Accept-Encoding' }
+28 silly get cb [ 304,
+28 silly get   { date: 'Wed, 15 Jun 2016 17:23:46 GMT',
+28 silly get     via: '1.1 varnish',
+28 silly get     'cache-control': 'max-age=300',
+28 silly get     etag: '"5NJJD9DUCWFGA1OLZNXDYDR82"',
+28 silly get     age: '157',
+28 silly get     connection: 'keep-alive',
+28 silly get     'x-served-by': 'cache-itm7424-ITM',
+28 silly get     'x-cache': 'HIT',
+28 silly get     'x-cache-hits': '2',
+28 silly get     'x-timer': 'S1466011426.370869,VS0,VE0',
+28 silly get     vary: 'Accept-Encoding' } ]
+29 verbose etag https://registry.npmjs.org/gitbook-plugin-search-pro from cache
+30 verbose get saving gitbook-plugin-search-pro to C:\Users\Holmes\AppData\Roaming\npm-cache\registry.npmjs.org\gitbook-plugin-search-pro\.cache.json
+31 verbose correctMkdir C:\Users\Holmes\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+32 silly addNameTag next cb for gitbook-plugin-search-pro with tag latest
+33 silly addNamed gitbook-plugin-search-pro@1.0.9
+34 verbose addNamed "1.0.9" is a plain semver version for gitbook-plugin-search-pro
+35 silly cache afterAdd gitbook-plugin-search-pro@1.0.9
+36 verbose afterAdd C:\Users\Holmes\AppData\Roaming\npm-cache\gitbook-plugin-search-pro\1.0.9\package\package.json not in flight; writing
+37 verbose correctMkdir C:\Users\Holmes\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+38 verbose afterAdd C:\Users\Holmes\AppData\Roaming\npm-cache\gitbook-plugin-search-pro\1.0.9\package\package.json written
+39 silly install resolved [ { name: 'gitbook-plugin-search-pro',
+39 silly install resolved     version: '1.0.9',
+39 silly install resolved     description: 'Gitbook search engine pro. (支持中文搜索)',
+39 silly install resolved     author: { name: 'xunuo', email: 'i@xunuo.com' },
+39 silly install resolved     repository:
+39 silly install resolved      { type: 'git',
+39 silly install resolved        url: 'git+https://github.com/gitbook-plugins/gitbook-plugin-search-pro.git' },
+39 silly install resolved     keywords: [ '中文', '搜索', 'chinese', 'gitbook', 'search' ],
+39 silly install resolved     engines: { gitbook: '*' },
+39 silly install resolved     dependencies: { lodash: '^3.10.1', nodejieba: '^1.4.1' },
+39 silly install resolved     analyze: true,
+39 silly install resolved     license: 'MIT',
+39 silly install resolved     gitHead: '8cb7abe0cba088599272d25bde964a2077060ad8',
+39 silly install resolved     bugs: { url: 'https://github.com/gitbook-plugins/gitbook-plugin-search-pro/issues' },
+39 silly install resolved     homepage: 'https://github.com/gitbook-plugins/gitbook-plugin-search-pro#readme',
+39 silly install resolved     _id: 'gitbook-plugin-search-pro@1.0.9',
+39 silly install resolved     scripts: {},
+39 silly install resolved     _shasum: '4a55d8cee1efc5cd225760264f3e2c5ca4fad455',
+39 silly install resolved     _from: 'gitbook-plugin-search-pro@latest',
+39 silly install resolved     _npmVersion: '2.14.7',
+39 silly install resolved     _nodeVersion: '4.2.1',
+39 silly install resolved     _npmUser: { name: 'xunuo', email: 'i@xunuo.com' },
+39 silly install resolved     dist:
+39 silly install resolved      { shasum: '4a55d8cee1efc5cd225760264f3e2c5ca4fad455',
+39 silly install resolved        tarball: 'https://registry.npmjs.org/gitbook-plugin-search-pro/-/gitbook-plugin-search-pro-1.0.9.tgz' },
+39 silly install resolved     maintainers: [ [Object] ],
+39 silly install resolved     _npmOperationalInternal:
+39 silly install resolved      { host: 'packages-16-east.internal.npmjs.com',
+39 silly install resolved        tmp: 'tmp/gitbook-plugin-search-pro-1.0.9.tgz_1462759835687_0.04480626177974045' },
+39 silly install resolved     directories: {},
+39 silly install resolved     _resolved: 'https://registry.npmjs.org/gitbook-plugin-search-pro/-/gitbook-plugin-search-pro-1.0.9.tgz',
+39 silly install resolved     readme: 'ERROR: No README data found!' } ]
+40 info install gitbook-plugin-search-pro@1.0.9 into C:\data\book
+41 info installOne gitbook-plugin-search-pro@1.0.9
+42 verbose installOne of gitbook-plugin-search-pro to C:\data\book not in flight; installing
+43 verbose correctMkdir C:\Users\Holmes\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+44 verbose lock using C:\Users\Holmes\AppData\Roaming\npm-cache\_locks\gitbook-plugin-search-pr-3fd1344490501d1f.lock for C:\data\book\node_modules\gitbook-plugin-search-pro
+45 silly install write writing gitbook-plugin-search-pro 1.0.9 to C:\data\book\node_modules\gitbook-plugin-search-pro
+46 verbose unbuild node_modules\gitbook-plugin-search-pro
+47 silly gentlyRm C:\data\book\node_modules\gitbook-plugin-search-pro is being purged from base C:\data\book
+48 verbose gentlyRm don't care about contents; nuking C:\data\book\node_modules\gitbook-plugin-search-pro
+49 verbose tar unpack C:\Users\Holmes\AppData\Roaming\npm-cache\gitbook-plugin-search-pro\1.0.9\package.tgz
+50 verbose tar unpacking to C:\data\book\node_modules\gitbook-plugin-search-pro
+51 silly gentlyRm C:\data\book\node_modules\gitbook-plugin-search-pro is being purged
+52 verbose gentlyRm don't care about contents; nuking C:\data\book\node_modules\gitbook-plugin-search-pro
+53 silly gunzTarPerm modes [ '777', '666' ]
+54 silly gunzTarPerm extractEntry package.json
+55 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+56 silly gunzTarPerm extractEntry .npmignore
+57 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+58 silly gunzTarPerm extractEntry README.md
+59 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+60 silly gunzTarPerm extractEntry index.js
+61 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+62 silly gunzTarPerm extractEntry main.js
+63 silly gunzTarPerm modified mode [ 'main.js', 420, 438 ]
+64 silly gunzTarPerm extractEntry .idea/.name
+65 silly gunzTarPerm modified mode [ '.idea/.name', 420, 438 ]
+66 silly gunzTarPerm extractEntry .idea/encodings.xml
+67 silly gunzTarPerm modified mode [ '.idea/encodings.xml', 420, 438 ]
+68 silly gunzTarPerm extractEntry .idea/gitbook-plugin-search-pro.iml
+69 silly gunzTarPerm modified mode [ '.idea/gitbook-plugin-search-pro.iml', 420, 438 ]
+70 silly gunzTarPerm extractEntry .idea/misc.xml
+71 silly gunzTarPerm modified mode [ '.idea/misc.xml', 420, 438 ]
+72 silly gunzTarPerm extractEntry .idea/modules.xml
+73 silly gunzTarPerm modified mode [ '.idea/modules.xml', 420, 438 ]
+74 silly gunzTarPerm extractEntry .idea/vcs.xml
+75 silly gunzTarPerm modified mode [ '.idea/vcs.xml', 420, 438 ]
+76 silly gunzTarPerm extractEntry .idea/workspace.xml
+77 silly gunzTarPerm modified mode [ '.idea/workspace.xml', 420, 438 ]
+78 silly gunzTarPerm extractEntry assets/search-pro.js
+79 silly gunzTarPerm modified mode [ 'assets/search-pro.js', 420, 438 ]
+80 silly gunzTarPerm extractEntry assets/search-pro.css
+81 silly gunzTarPerm modified mode [ 'assets/search-pro.css', 420, 438 ]
+82 verbose write writing to C:\data\book\node_modules\gitbook-plugin-search-pro\package.json
+83 info preinstall gitbook-plugin-search-pro@1.0.9
+84 verbose readDependencies loading dependencies from C:\data\book\node_modules\gitbook-plugin-search-pro\package.json
+85 silly prepareForInstallMany adding nodejieba@^1.4.1 from gitbook-plugin-search-pro dependencies
+86 verbose readDependencies loading dependencies from C:\data\book\node_modules\gitbook-plugin-search-pro\package.json
+87 silly cache add args [ 'nodejieba@^1.4.1', null ]
+88 verbose cache add spec nodejieba@^1.4.1
+89 silly cache add parsed spec Result {
+89 silly cache add   raw: 'nodejieba@^1.4.1',
+89 silly cache add   scope: null,
+89 silly cache add   name: 'nodejieba',
+89 silly cache add   rawSpec: '^1.4.1',
+89 silly cache add   spec: '>=1.4.1 <2.0.0',
+89 silly cache add   type: 'range' }
+90 silly addNamed nodejieba@>=1.4.1 <2.0.0
+91 verbose addNamed ">=1.4.1 <2.0.0" is a valid semver range for nodejieba
+92 silly addNameRange { name: 'nodejieba', range: '>=1.4.1 <2.0.0', hasData: false }
+93 silly mapToRegistry name nodejieba
+94 silly mapToRegistry using default registry
+95 silly mapToRegistry registry https://registry.npmjs.org/
+96 silly mapToRegistry data Result {
+96 silly mapToRegistry   raw: 'nodejieba',
+96 silly mapToRegistry   scope: null,
+96 silly mapToRegistry   name: 'nodejieba',
+96 silly mapToRegistry   rawSpec: '',
+96 silly mapToRegistry   spec: 'latest',
+96 silly mapToRegistry   type: 'tag' }
+97 silly mapToRegistry uri https://registry.npmjs.org/nodejieba
+98 verbose addNameRange registry:https://registry.npmjs.org/nodejieba not in flight; fetching
+99 verbose request uri https://registry.npmjs.org/nodejieba
+100 verbose request no auth needed
+101 info attempt registry request try #1 at 01:23:47
+102 verbose etag "4DL9J02VEYEGO5L3SNP1WBTUK"
+103 http request GET https://registry.npmjs.org/nodejieba
+104 http 304 https://registry.npmjs.org/nodejieba
+105 verbose headers { date: 'Wed, 15 Jun 2016 17:23:47 GMT',
+105 verbose headers   via: '1.1 varnish',
+105 verbose headers   'cache-control': 'max-age=300',
+105 verbose headers   etag: '"4DL9J02VEYEGO5L3SNP1WBTUK"',
+105 verbose headers   age: '155',
+105 verbose headers   connection: 'keep-alive',
+105 verbose headers   'x-served-by': 'cache-itm7424-ITM',
+105 verbose headers   'x-cache': 'HIT',
+105 verbose headers   'x-cache-hits': '2',
+105 verbose headers   'x-timer': 'S1466011427.157539,VS0,VE0',
+105 verbose headers   vary: 'Accept-Encoding' }
+106 silly get cb [ 304,
+106 silly get   { date: 'Wed, 15 Jun 2016 17:23:47 GMT',
+106 silly get     via: '1.1 varnish',
+106 silly get     'cache-control': 'max-age=300',
+106 silly get     etag: '"4DL9J02VEYEGO5L3SNP1WBTUK"',
+106 silly get     age: '155',
+106 silly get     connection: 'keep-alive',
+106 silly get     'x-served-by': 'cache-itm7424-ITM',
+106 silly get     'x-cache': 'HIT',
+106 silly get     'x-cache-hits': '2',
+106 silly get     'x-timer': 'S1466011427.157539,VS0,VE0',
+106 silly get     vary: 'Accept-Encoding' } ]
+107 verbose etag https://registry.npmjs.org/nodejieba from cache
+108 verbose get saving nodejieba to C:\Users\Holmes\AppData\Roaming\npm-cache\registry.npmjs.org\nodejieba\.cache.json
+109 verbose correctMkdir C:\Users\Holmes\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+110 silly addNameRange number 2 { name: 'nodejieba', range: '>=1.4.1 <2.0.0', hasData: true }
+111 silly addNameRange versions [ 'nodejieba',
+111 silly addNameRange   [ '0.1.0',
+111 silly addNameRange     '0.1.1',
+111 silly addNameRange     '0.1.2',
+111 silly addNameRange     '0.1.3',
+111 silly addNameRange     '0.1.4',
+111 silly addNameRange     '0.2.0',
+111 silly addNameRange     '0.2.1',
+111 silly addNameRange     '0.2.2',
+111 silly addNameRange     '0.2.3',
+111 silly addNameRange     '0.2.4',
+111 silly addNameRange     '0.2.5',
+111 silly addNameRange     '0.2.6',
+111 silly addNameRange     '0.2.7',
+111 silly addNameRange     '0.2.8',
+111 silly addNameRange     '0.2.9',
+111 silly addNameRange     '0.2.10',
+111 silly addNameRange     '0.2.11',
+111 silly addNameRange     '0.2.12',
+111 silly addNameRange     '0.2.13',
+111 silly addNameRange     '1.0.0',
+111 silly addNameRange     '1.0.1',
+111 silly addNameRange     '1.0.2',
+111 silly addNameRange     '1.0.3',
+111 silly addNameRange     '1.1.0',
+111 silly addNameRange     '1.2.0',
+111 silly addNameRange     '1.2.1',
+111 silly addNameRange     '1.2.2',
+111 silly addNameRange     '1.3.0',
+111 silly addNameRange     '1.4.0',
+111 silly addNameRange     '1.4.1',
+111 silly addNameRange     '1.4.2',
+111 silly addNameRange     '1.4.3',
+111 silly addNameRange     '1.4.4',
+111 silly addNameRange     '1.4.5',
+111 silly addNameRange     '1.4.6',
+111 silly addNameRange     '1.4.7',
+111 silly addNameRange     '1.4.8',
+111 silly addNameRange     '1.4.9',
+111 silly addNameRange     '1.4.10',
+111 silly addNameRange     '1.4.11',
+111 silly addNameRange     '2.0.0',
+111 silly addNameRange     '2.1.0',
+111 silly addNameRange     '2.2.0',
+111 silly addNameRange     '2.2.1' ] ]
+112 silly addNamed nodejieba@1.4.11
+113 verbose addNamed "1.4.11" is a plain semver version for nodejieba
+114 silly cache afterAdd nodejieba@1.4.11
+115 verbose afterAdd C:\Users\Holmes\AppData\Roaming\npm-cache\nodejieba\1.4.11\package\package.json not in flight; writing
+116 verbose correctMkdir C:\Users\Holmes\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+117 verbose afterAdd C:\Users\Holmes\AppData\Roaming\npm-cache\nodejieba\1.4.11\package\package.json written
+118 silly install resolved [ { name: 'nodejieba',
+118 silly install resolved     description: 'chinese word segmentation for node',
+118 silly install resolved     version: '1.4.11',
+118 silly install resolved     author: { name: 'Yanyi Wu', email: 'i@yanyiwu.com' },
+118 silly install resolved     maintainers: [ [Object] ],
+118 silly install resolved     main: './index.js',
+118 silly install resolved     engines: { node: '>= 0.10.0', iojs: '>= 1.0.0' },
+118 silly install resolved     repository:
+118 silly install resolved      { type: 'git',
+118 silly install resolved        url: 'git+ssh://git@github.com/yanyiwu/nodejieba.git' },
+118 silly install resolved     keywords: [ 'chinese', 'segment', 'cppjieba', 'jieba', '中文分词', '结巴分词' ],
+118 silly install resolved     dependencies: { nan: '~2.3.0' },
+118 silly install resolved     devDependencies:
+118 silly install resolved      { mocha: '~2.4.5',
+118 silly install resolved        should: '~8.3.1',
+118 silly install resolved        istanbul: '~0.4.1',
+118 silly install resolved        coveralls: '~2.11.6' },
+118 silly install resolved     scripts:
+118 silly install resolved      { test: 'node test/demo.js && node test/load_dict_demo.js && mocha --timeout 10s -R spec test/test.js && mocha --timeout 10s -R spec test/load_dict_test.js',
+118 silly install resolved        install: 'node-gyp rebuild' },
+118 silly install resolved     license: 'MIT',
+118 silly install resolved     gypfile: true,
+118 silly install resolved     gitHead: 'b3c7aefb0c15b986c6281dce7e253ed06a09d145',
+118 silly install resolved     bugs: { url: 'https://github.com/yanyiwu/nodejieba/issues' },
+118 silly install resolved     homepage: 'https://github.com/yanyiwu/nodejieba#readme',
+118 silly install resolved     _id: 'nodejieba@1.4.11',
+118 silly install resolved     _shasum: '888604861f378111494f81a83cd30965ce75eba7',
+118 silly install resolved     _from: 'nodejieba@>=1.4.1 <2.0.0',
+118 silly install resolved     _npmVersion: '3.6.0',
+118 silly install resolved     _nodeVersion: '5.7.0',
+118 silly install resolved     _npmUser: { name: 'yanyiwu', email: 'i@yanyiwu.com' },
+118 silly install resolved     dist:
+118 silly install resolved      { shasum: '888604861f378111494f81a83cd30965ce75eba7',
+118 silly install resolved        tarball: 'https://registry.npmjs.org/nodejieba/-/nodejieba-1.4.11.tgz' },
+118 silly install resolved     _npmOperationalInternal:
+118 silly install resolved      { host: 'packages-16-east.internal.npmjs.com',
+118 silly install resolved        tmp: 'tmp/nodejieba-1.4.11.tgz_1462024849554_0.5135900718159974' },
+118 silly install resolved     directories: {},
+118 silly install resolved     _resolved: 'https://registry.npmjs.org/nodejieba/-/nodejieba-1.4.11.tgz',
+118 silly install resolved     readme: 'ERROR: No README data found!' } ]
+119 info install nodejieba@1.4.11 into C:\data\book\node_modules\gitbook-plugin-search-pro
+120 info installOne nodejieba@1.4.11
+121 verbose installOne of nodejieba to C:\data\book\node_modules\gitbook-plugin-search-pro not in flight; installing
+122 verbose correctMkdir C:\Users\Holmes\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+123 verbose lock using C:\Users\Holmes\AppData\Roaming\npm-cache\_locks\nodejieba-e7eeb5d8f12eec2c.lock for C:\data\book\node_modules\gitbook-plugin-search-pro\node_modules\nodejieba
+124 silly install write writing nodejieba 1.4.11 to C:\data\book\node_modules\gitbook-plugin-search-pro\node_modules\nodejieba
+125 verbose unbuild node_modules\gitbook-plugin-search-pro\node_modules\nodejieba
+126 silly gentlyRm C:\data\book\node_modules\gitbook-plugin-search-pro\node_modules\nodejieba is being purged from base C:\data\book
+127 verbose gentlyRm don't care about contents; nuking C:\data\book\node_modules\gitbook-plugin-search-pro\node_modules\nodejieba
+128 verbose tar unpack C:\Users\Holmes\AppData\Roaming\npm-cache\nodejieba\1.4.11\package.tgz
+129 verbose tar unpacking to C:\data\book\node_modules\gitbook-plugin-search-pro\node_modules\nodejieba
+130 silly gentlyRm C:\data\book\node_modules\gitbook-plugin-search-pro\node_modules\nodejieba is being purged
+131 verbose gentlyRm don't care about contents; nuking C:\data\book\node_modules\gitbook-plugin-search-pro\node_modules\nodejieba
+132 silly gunzTarPerm modes [ '777', '666' ]
+133 silly gunzTarPerm extractEntry package.json
+134 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+135 silly gunzTarPerm extractEntry .npmignore
+136 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+137 silly gunzTarPerm extractEntry README.md
+138 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
+139 silly gunzTarPerm extractEntry index.js
+140 silly gunzTarPerm modified mode [ 'index.js', 436, 438 ]
+141 silly gunzTarPerm extractEntry README_EN.md
+142 silly gunzTarPerm modified mode [ 'README_EN.md', 436, 438 ]
+143 silly gunzTarPerm extractEntry binding.gyp
+144 silly gunzTarPerm modified mode [ 'binding.gyp', 436, 438 ]
+145 silly gunzTarPerm extractEntry .travis.yml
+146 silly gunzTarPerm modified mode [ '.travis.yml', 436, 438 ]
+147 silly gunzTarPerm extractEntry deps/cppjieba/MixSegment.hpp
+148 silly gunzTarPerm modified mode [ 'deps/cppjieba/MixSegment.hpp', 436, 438 ]
+149 silly gunzTarPerm extractEntry deps/cppjieba/DictTrie.hpp
+150 silly gunzTarPerm modified mode [ 'deps/cppjieba/DictTrie.hpp', 436, 438 ]
+151 silly gunzTarPerm extractEntry deps/cppjieba/HMMModel.hpp
+152 silly gunzTarPerm modified mode [ 'deps/cppjieba/HMMModel.hpp', 436, 438 ]
+153 silly gunzTarPerm extractEntry deps/cppjieba/HMMSegment.hpp
+154 silly gunzTarPerm modified mode [ 'deps/cppjieba/HMMSegment.hpp', 436, 438 ]
+155 silly gunzTarPerm extractEntry deps/cppjieba/Jieba.hpp
+156 silly gunzTarPerm modified mode [ 'deps/cppjieba/Jieba.hpp', 436, 438 ]
+157 silly gunzTarPerm extractEntry deps/cppjieba/KeywordExtractor.hpp
+158 silly gunzTarPerm modified mode [ 'deps/cppjieba/KeywordExtractor.hpp', 436, 438 ]
+159 silly gunzTarPerm extractEntry deps/cppjieba/MPSegment.hpp
+160 silly gunzTarPerm modified mode [ 'deps/cppjieba/MPSegment.hpp', 436, 438 ]
+161 silly gunzTarPerm extractEntry deps/cppjieba/FullSegment.hpp
+162 silly gunzTarPerm modified mode [ 'deps/cppjieba/FullSegment.hpp', 436, 438 ]
+163 silly gunzTarPerm extractEntry deps/cppjieba/PosTagger.hpp
+164 silly gunzTarPerm modified mode [ 'deps/cppjieba/PosTagger.hpp', 436, 438 ]
+165 silly gunzTarPerm extractEntry deps/cppjieba/PreFilter.hpp
+166 silly gunzTarPerm modified mode [ 'deps/cppjieba/PreFilter.hpp', 436, 438 ]
+167 silly gunzTarPerm extractEntry deps/cppjieba/QuerySegment.hpp
+168 silly gunzTarPerm modified mode [ 'deps/cppjieba/QuerySegment.hpp', 436, 438 ]
+169 silly gunzTarPerm extractEntry deps/cppjieba/SegmentBase.hpp
+170 silly gunzTarPerm modified mode [ 'deps/cppjieba/SegmentBase.hpp', 420, 438 ]
+171 silly gunzTarPerm extractEntry deps/cppjieba/Trie.hpp
+172 silly gunzTarPerm modified mode [ 'deps/cppjieba/Trie.hpp', 436, 438 ]
+173 silly gunzTarPerm extractEntry deps/cppjieba/Unicode.hpp
+174 silly gunzTarPerm modified mode [ 'deps/cppjieba/Unicode.hpp', 436, 438 ]
+175 silly gunzTarPerm extractEntry deps/limonp/ForcePublic.hpp
+176 silly gunzTarPerm modified mode [ 'deps/limonp/ForcePublic.hpp', 436, 438 ]
+177 silly gunzTarPerm extractEntry deps/limonp/ArgvContext.hpp
+178 silly gunzTarPerm modified mode [ 'deps/limonp/ArgvContext.hpp', 420, 438 ]
+179 silly gunzTarPerm extractEntry deps/limonp/BoundedBlockingQueue.hpp
+180 silly gunzTarPerm modified mode [ 'deps/limonp/BoundedBlockingQueue.hpp', 420, 438 ]
+181 silly gunzTarPerm extractEntry deps/limonp/BoundedQueue.hpp
+182 silly gunzTarPerm modified mode [ 'deps/limonp/BoundedQueue.hpp', 420, 438 ]
+183 silly gunzTarPerm extractEntry deps/limonp/Closure.hpp
+184 silly gunzTarPerm modified mode [ 'deps/limonp/Closure.hpp', 420, 438 ]
+185 silly gunzTarPerm extractEntry deps/limonp/Colors.hpp
+186 silly gunzTarPerm modified mode [ 'deps/limonp/Colors.hpp', 420, 438 ]
+187 silly gunzTarPerm extractEntry deps/limonp/Condition.hpp
+188 silly gunzTarPerm modified mode [ 'deps/limonp/Condition.hpp', 436, 438 ]
+189 silly gunzTarPerm extractEntry deps/limonp/Config.hpp
+190 silly gunzTarPerm modified mode [ 'deps/limonp/Config.hpp', 420, 438 ]
+191 silly gunzTarPerm extractEntry deps/limonp/FileLock.hpp
+192 silly gunzTarPerm modified mode [ 'deps/limonp/FileLock.hpp', 420, 438 ]
+193 silly gunzTarPerm extractEntry deps/limonp/BlockingQueue.hpp
+194 silly gunzTarPerm modified mode [ 'deps/limonp/BlockingQueue.hpp', 420, 438 ]
+195 silly gunzTarPerm extractEntry deps/limonp/LocalVector.hpp
+196 silly gunzTarPerm modified mode [ 'deps/limonp/LocalVector.hpp', 420, 438 ]
+197 silly gunzTarPerm extractEntry deps/limonp/Logging.hpp
+198 silly gunzTarPerm modified mode [ 'deps/limonp/Logging.hpp', 436, 438 ]
+199 silly gunzTarPerm extractEntry deps/limonp/Md5.hpp
+200 silly gunzTarPerm modified mode [ 'deps/limonp/Md5.hpp', 420, 438 ]
+201 silly gunzTarPerm extractEntry deps/limonp/MutexLock.hpp
+202 silly gunzTarPerm modified mode [ 'deps/limonp/MutexLock.hpp', 436, 438 ]
+203 silly gunzTarPerm extractEntry deps/limonp/NonCopyable.hpp
+204 silly gunzTarPerm modified mode [ 'deps/limonp/NonCopyable.hpp', 436, 438 ]
+205 silly gunzTarPerm extractEntry deps/limonp/StdExtension.hpp
+206 silly gunzTarPerm modified mode [ 'deps/limonp/StdExtension.hpp', 436, 438 ]
+207 silly gunzTarPerm extractEntry deps/limonp/StringUtil.hpp
+208 silly gunzTarPerm modified mode [ 'deps/limonp/StringUtil.hpp', 436, 438 ]
+209 silly gunzTarPerm extractEntry deps/limonp/Thread.hpp
+210 silly gunzTarPerm modified mode [ 'deps/limonp/Thread.hpp', 436, 438 ]
+211 silly gunzTarPerm extractEntry deps/limonp/ThreadPool.hpp
+212 silly gunzTarPerm modified mode [ 'deps/limonp/ThreadPool.hpp', 436, 438 ]
+213 silly gunzTarPerm extractEntry dict/hmm_model.utf8
+214 silly gunzTarPerm modified mode [ 'dict/hmm_model.utf8', 436, 438 ]
+215 silly gunzTarPerm extractEntry dict/idf.utf8
+216 silly gunzTarPerm modified mode [ 'dict/idf.utf8', 436, 438 ]
+217 silly gunzTarPerm extractEntry dict/jieba.dict.utf8
+218 silly gunzTarPerm modified mode [ 'dict/jieba.dict.utf8', 436, 438 ]
+219 silly gunzTarPerm extractEntry dict/stop_words.utf8
+220 silly gunzTarPerm modified mode [ 'dict/stop_words.utf8', 436, 438 ]
+221 silly gunzTarPerm extractEntry dict/user.dict.utf8
+222 silly gunzTarPerm modified mode [ 'dict/user.dict.utf8', 436, 438 ]
+223 silly gunzTarPerm extractEntry ChangeLog.md
+224 silly gunzTarPerm modified mode [ 'ChangeLog.md', 436, 438 ]
+225 silly gunzTarPerm extractEntry lib/index.cpp
+226 silly gunzTarPerm modified mode [ 'lib/index.cpp', 436, 438 ]
+227 silly gunzTarPerm extractEntry lib/nodejieba.cpp
+228 silly gunzTarPerm modified mode [ 'lib/nodejieba.cpp', 436, 438 ]
+229 silly gunzTarPerm extractEntry lib/nodejieba.h
+230 silly gunzTarPerm modified mode [ 'lib/nodejieba.h', 436, 438 ]
+231 silly gunzTarPerm extractEntry lib/utils.h
+232 silly gunzTarPerm modified mode [ 'lib/utils.h', 436, 438 ]
+233 silly gunzTarPerm extractEntry test/demo.js
+234 silly gunzTarPerm modified mode [ 'test/demo.js', 436, 438 ]
+235 silly gunzTarPerm extractEntry test/load_dict_demo.js
+236 silly gunzTarPerm modified mode [ 'test/load_dict_demo.js', 436, 438 ]
+237 silly gunzTarPerm extractEntry test/load_dict_test.js
+238 silly gunzTarPerm modified mode [ 'test/load_dict_test.js', 436, 438 ]
+239 silly gunzTarPerm extractEntry test/test.js
+240 silly gunzTarPerm modified mode [ 'test/test.js', 436, 438 ]
+241 silly gunzTarPerm extractEntry test/testdata/userdict.utf8
+242 silly gunzTarPerm modified mode [ 'test/testdata/userdict.utf8', 436, 438 ]
+243 verbose write writing to C:\data\book\node_modules\gitbook-plugin-search-pro\node_modules\nodejieba\package.json
+244 info preinstall nodejieba@1.4.11
+245 verbose readDependencies loading dependencies from C:\data\book\node_modules\gitbook-plugin-search-pro\node_modules\nodejieba\package.json
+246 silly prepareForInstallMany adding nan@~2.3.0 from nodejieba dependencies
+247 verbose readDependencies loading dependencies from C:\data\book\node_modules\gitbook-plugin-search-pro\node_modules\nodejieba\package.json
+248 silly cache add args [ 'nan@~2.3.0', null ]
+249 verbose cache add spec nan@~2.3.0
+250 silly cache add parsed spec Result {
+250 silly cache add   raw: 'nan@~2.3.0',
+250 silly cache add   scope: null,
+250 silly cache add   name: 'nan',
+250 silly cache add   rawSpec: '~2.3.0',
+250 silly cache add   spec: '>=2.3.0 <2.4.0',
+250 silly cache add   type: 'range' }
+251 silly addNamed nan@>=2.3.0 <2.4.0
+252 verbose addNamed ">=2.3.0 <2.4.0" is a valid semver range for nan
+253 silly addNameRange { name: 'nan', range: '>=2.3.0 <2.4.0', hasData: false }
+254 silly mapToRegistry name nan
+255 silly mapToRegistry using default registry
+256 silly mapToRegistry registry https://registry.npmjs.org/
+257 silly mapToRegistry data Result {
+257 silly mapToRegistry   raw: 'nan',
+257 silly mapToRegistry   scope: null,
+257 silly mapToRegistry   name: 'nan',
+257 silly mapToRegistry   rawSpec: '',
+257 silly mapToRegistry   spec: 'latest',
+257 silly mapToRegistry   type: 'tag' }
+258 silly mapToRegistry uri https://registry.npmjs.org/nan
+259 verbose addNameRange registry:https://registry.npmjs.org/nan not in flight; fetching
+260 verbose request uri https://registry.npmjs.org/nan
+261 verbose request no auth needed
+262 info attempt registry request try #1 at 01:23:48
+263 verbose etag "12RFHNMU7CS3WJ1892HQLM0NB"
+264 http request GET https://registry.npmjs.org/nan
+265 http 304 https://registry.npmjs.org/nan
+266 verbose headers { date: 'Wed, 15 Jun 2016 17:23:48 GMT',
+266 verbose headers   via: '1.1 varnish',
+266 verbose headers   'cache-control': 'max-age=300',
+266 verbose headers   etag: '"12RFHNMU7CS3WJ1892HQLM0NB"',
+266 verbose headers   age: '206',
+266 verbose headers   connection: 'keep-alive',
+266 verbose headers   'x-served-by': 'cache-itm7424-ITM',
+266 verbose headers   'x-cache': 'HIT',
+266 verbose headers   'x-cache-hits': '3',
+266 verbose headers   'x-timer': 'S1466011428.993703,VS0,VE0',
+266 verbose headers   vary: 'Accept-Encoding' }
+267 silly get cb [ 304,
+267 silly get   { date: 'Wed, 15 Jun 2016 17:23:48 GMT',
+267 silly get     via: '1.1 varnish',
+267 silly get     'cache-control': 'max-age=300',
+267 silly get     etag: '"12RFHNMU7CS3WJ1892HQLM0NB"',
+267 silly get     age: '206',
+267 silly get     connection: 'keep-alive',
+267 silly get     'x-served-by': 'cache-itm7424-ITM',
+267 silly get     'x-cache': 'HIT',
+267 silly get     'x-cache-hits': '3',
+267 silly get     'x-timer': 'S1466011428.993703,VS0,VE0',
+267 silly get     vary: 'Accept-Encoding' } ]
+268 verbose etag https://registry.npmjs.org/nan from cache
+269 verbose get saving nan to C:\Users\Holmes\AppData\Roaming\npm-cache\registry.npmjs.org\nan\.cache.json
+270 verbose correctMkdir C:\Users\Holmes\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+271 silly addNameRange number 2 { name: 'nan', range: '>=2.3.0 <2.4.0', hasData: true }
+272 silly addNameRange versions [ 'nan',
+272 silly addNameRange   [ '0.3.0-wip',
+272 silly addNameRange     '0.3.0-wip2',
+272 silly addNameRange     '0.3.0',
+272 silly addNameRange     '0.3.1',
+272 silly addNameRange     '0.3.2',
+272 silly addNameRange     '0.4.0',
+272 silly addNameRange     '0.4.1',
+272 silly addNameRange     '0.4.2',
+272 silly addNameRange     '0.4.3',
+272 silly addNameRange     '0.4.4',
+272 silly addNameRange     '0.5.0',
+272 silly addNameRange     '0.5.1',
+272 silly addNameRange     '0.5.2',
+272 silly addNameRange     '0.6.0',
+272 silly addNameRange     '0.7.0',
+272 silly addNameRange     '0.7.1',
+272 silly addNameRange     '0.8.0',
+272 silly addNameRange     '1.0.0',
+272 silly addNameRange     '1.1.0',
+272 silly addNameRange     '1.1.1',
+272 silly addNameRange     '1.1.2',
+272 silly addNameRange     '1.2.0',
+272 silly addNameRange     '1.3.0',
+272 silly addNameRange     '1.4.0',
+272 silly addNameRange     '1.4.1',
+272 silly addNameRange     '1.5.0',
+272 silly addNameRange     '1.4.2',
+272 silly addNameRange     '1.4.3',
+272 silly addNameRange     '1.5.1',
+272 silly addNameRange     '1.5.2',
+272 silly addNameRange     '1.6.0',
+272 silly addNameRange     '1.5.3',
+272 silly addNameRange     '1.6.1',
+272 silly addNameRange     '1.6.2',
+272 silly addNameRange     '1.7.0',
+272 silly addNameRange     '1.8.0',
+272 silly addNameRange     '1.8.1',
+272 silly addNameRange     '1.8.2',
+272 silly addNameRange     '1.8.3',
+272 silly addNameRange     '1.8.4',
+272 silly addNameRange     '1.9.0',
+272 silly addNameRange     '2.0.0',
+272 silly addNameRange     '2.0.1',
+272 silly addNameRange     '2.0.2',
+272 silly addNameRange     '2.0.3',
+272 silly addNameRange     '2.0.4',
+272 silly addNameRange     '2.0.5',
+272 silly addNameRange     '2.0.6',
+272 silly addNameRange     '2.0.7',
+272 silly addNameRange     '2.0.8',
+272 silly addNameRange     '2.0.9',
+272 silly addNameRange     '2.1.0',
+272 silly addNameRange     '2.2.0',
+272 silly addNameRange     '2.2.1',
+272 silly addNameRange     '2.3.0',
+272 silly addNameRange     '2.3.1',
+272 silly addNameRange     '2.3.2',
+272 silly addNameRange     '2.3.3',
+272 silly addNameRange     '2.3.4',
+272 silly addNameRange     '2.3.5' ] ]
+273 silly addNamed nan@2.3.5
+274 verbose addNamed "2.3.5" is a plain semver version for nan
+275 silly cache afterAdd nan@2.3.5
+276 verbose afterAdd C:\Users\Holmes\AppData\Roaming\npm-cache\nan\2.3.5\package\package.json not in flight; writing
+277 verbose correctMkdir C:\Users\Holmes\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+278 verbose afterAdd C:\Users\Holmes\AppData\Roaming\npm-cache\nan\2.3.5\package\package.json written
+279 silly install resolved [ { name: 'nan',
+279 silly install resolved     version: '2.3.5',
+279 silly install resolved     description: 'Native Abstractions for Node.js: C++ header for Node 0.8 -> 6 compatibility',
+279 silly install resolved     main: 'include_dirs.js',
+279 silly install resolved     repository: { type: 'git', url: 'git://github.com/nodejs/nan.git' },
+279 silly install resolved     scripts:
+279 silly install resolved      { test: 'tap --gc --stderr test/js/*-test.js',
+279 silly install resolved        'rebuild-tests': 'node-gyp rebuild --msvs_version=2013 --directory test',
+279 silly install resolved        docs: 'doc/.build.sh' },
+279 silly install resolved     contributors:
+279 silly install resolved      [ [Object],
+279 silly install resolved        [Object],
+279 silly install resolved        [Object],
+279 silly install resolved        [Object],
+279 silly install resolved        [Object],
+279 silly install resolved        [Object],
+279 silly install resolved        [Object] ],
+279 silly install resolved     devDependencies:
+279 silly install resolved      { bindings: '~1.2.1',
+279 silly install resolved        commander: '^2.8.1',
+279 silly install resolved        glob: '^5.0.14',
+279 silly install resolved        'node-gyp': '~3.0.1',
+279 silly install resolved        tap: '~0.7.1',
+279 silly install resolved        xtend: '~4.0.0' },
+279 silly install resolved     license: 'MIT',
+279 silly install resolved     bugs: { url: 'https://github.com/nodejs/nan/issues' },
+279 silly install resolved     homepage: 'https://github.com/nodejs/nan#readme',
+279 silly install resolved     _id: 'nan@2.3.5',
+279 silly install resolved     _shasum: '822a0dc266290ce4cd3a12282ca3e7e364668a08',
+279 silly install resolved     _resolved: 'https://registry.npmjs.org/nan/-/nan-2.3.5.tgz',
+279 silly install resolved     _from: 'nan@>=2.3.0 <2.4.0',
+279 silly install resolved     _npmVersion: '3.3.6',
+279 silly install resolved     _nodeVersion: '5.0.0',
+279 silly install resolved     _npmUser: { name: 'kkoopa', email: 'bbyholm@abo.fi' },
+279 silly install resolved     dist:
+279 silly install resolved      { shasum: '822a0dc266290ce4cd3a12282ca3e7e364668a08',
+279 silly install resolved        tarball: 'https://registry.npmjs.org/nan/-/nan-2.3.5.tgz' },
+279 silly install resolved     maintainers: [ [Object], [Object] ],
+279 silly install resolved     _npmOperationalInternal:
+279 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+279 silly install resolved        tmp: 'tmp/nan-2.3.5.tgz_1464707164994_0.4295874561648816' },
+279 silly install resolved     directories: {},
+279 silly install resolved     readme: 'ERROR: No README data found!' } ]
+280 info install nan@2.3.5 into C:\data\book\node_modules\gitbook-plugin-search-pro\node_modules\nodejieba
+281 info installOne nan@2.3.5
+282 verbose installOne of nan to C:\data\book\node_modules\gitbook-plugin-search-pro\node_modules\nodejieba not in flight; installing
+283 verbose correctMkdir C:\Users\Holmes\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+284 verbose lock using C:\Users\Holmes\AppData\Roaming\npm-cache\_locks\nan-f3e193ab8806cc8f.lock for C:\data\book\node_modules\gitbook-plugin-search-pro\node_modules\nodejieba\node_modules\nan
+285 silly install write writing nan 2.3.5 to C:\data\book\node_modules\gitbook-plugin-search-pro\node_modules\nodejieba\node_modules\nan
+286 verbose unbuild node_modules\gitbook-plugin-search-pro\node_modules\nodejieba\node_modules\nan
+287 silly gentlyRm C:\data\book\node_modules\gitbook-plugin-search-pro\node_modules\nodejieba\node_modules\nan is being purged from base C:\data\book
+288 verbose gentlyRm don't care about contents; nuking C:\data\book\node_modules\gitbook-plugin-search-pro\node_modules\nodejieba\node_modules\nan
+289 verbose tar unpack C:\Users\Holmes\AppData\Roaming\npm-cache\nan\2.3.5\package.tgz
+290 verbose tar unpacking to C:\data\book\node_modules\gitbook-plugin-search-pro\node_modules\nodejieba\node_modules\nan
+291 silly gentlyRm C:\data\book\node_modules\gitbook-plugin-search-pro\node_modules\nodejieba\node_modules\nan is being purged
+292 verbose gentlyRm don't care about contents; nuking C:\data\book\node_modules\gitbook-plugin-search-pro\node_modules\nodejieba\node_modules\nan
+293 silly gunzTarPerm modes [ '777', '666' ]
+294 silly gunzTarPerm extractEntry package.json
+295 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+296 silly gunzTarPerm extractEntry README.md
+297 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
+298 silly gunzTarPerm extractEntry include_dirs.js
+299 silly gunzTarPerm modified mode [ 'include_dirs.js', 436, 438 ]
+300 silly gunzTarPerm extractEntry nan_converters.h
+301 silly gunzTarPerm modified mode [ 'nan_converters.h', 436, 438 ]
+302 silly gunzTarPerm extractEntry LICENSE.md
+303 silly gunzTarPerm modified mode [ 'LICENSE.md', 436, 438 ]
+304 silly gunzTarPerm extractEntry doc/node_misc.md
+305 silly gunzTarPerm modified mode [ 'doc/node_misc.md', 436, 438 ]
+306 silly gunzTarPerm extractEntry doc/asyncworker.md
+307 silly gunzTarPerm modified mode [ 'doc/asyncworker.md', 436, 438 ]
+308 silly gunzTarPerm extractEntry doc/callback.md
+309 silly gunzTarPerm modified mode [ 'doc/callback.md', 436, 438 ]
+310 silly gunzTarPerm extractEntry doc/converters.md
+311 silly gunzTarPerm modified mode [ 'doc/converters.md', 436, 438 ]
+312 silly gunzTarPerm extractEntry doc/errors.md
+313 silly gunzTarPerm modified mode [ 'doc/errors.md', 436, 438 ]
+314 silly gunzTarPerm extractEntry doc/maybe_types.md
+315 silly gunzTarPerm modified mode [ 'doc/maybe_types.md', 436, 438 ]
+316 silly gunzTarPerm extractEntry doc/methods.md
+317 silly gunzTarPerm modified mode [ 'doc/methods.md', 436, 438 ]
+318 silly gunzTarPerm extractEntry doc/new.md
+319 silly gunzTarPerm modified mode [ 'doc/new.md', 436, 438 ]
+320 silly gunzTarPerm extractEntry doc/buffers.md
+321 silly gunzTarPerm modified mode [ 'doc/buffers.md', 436, 438 ]
+322 silly gunzTarPerm extractEntry doc/object_wrappers.md
+323 silly gunzTarPerm modified mode [ 'doc/object_wrappers.md', 436, 438 ]
+324 silly gunzTarPerm extractEntry doc/persistent.md
+325 silly gunzTarPerm modified mode [ 'doc/persistent.md', 436, 438 ]
+326 silly gunzTarPerm extractEntry doc/scopes.md
+327 silly gunzTarPerm modified mode [ 'doc/scopes.md', 436, 438 ]
+328 silly gunzTarPerm extractEntry doc/script.md
+329 silly gunzTarPerm modified mode [ 'doc/script.md', 436, 438 ]
+330 silly gunzTarPerm extractEntry doc/string_bytes.md
+331 silly gunzTarPerm modified mode [ 'doc/string_bytes.md', 436, 438 ]
+332 silly gunzTarPerm extractEntry doc/v8_internals.md
+333 silly gunzTarPerm modified mode [ 'doc/v8_internals.md', 436, 438 ]
+334 silly gunzTarPerm extractEntry doc/v8_misc.md
+335 silly gunzTarPerm modified mode [ 'doc/v8_misc.md', 436, 438 ]
+336 silly gunzTarPerm extractEntry nan.h
+337 silly gunzTarPerm modified mode [ 'nan.h', 436, 438 ]
+338 silly gunzTarPerm extractEntry nan_callbacks.h
+339 silly gunzTarPerm modified mode [ 'nan_callbacks.h', 436, 438 ]
+340 silly gunzTarPerm extractEntry nan_callbacks_12_inl.h
+341 silly gunzTarPerm modified mode [ 'nan_callbacks_12_inl.h', 436, 438 ]
+342 silly gunzTarPerm extractEntry nan_callbacks_pre_12_inl.h
+343 silly gunzTarPerm modified mode [ 'nan_callbacks_pre_12_inl.h', 436, 438 ]
+344 silly gunzTarPerm extractEntry nan_converters_43_inl.h
+345 silly gunzTarPerm modified mode [ 'nan_converters_43_inl.h', 436, 438 ]
+346 silly gunzTarPerm extractEntry nan_converters_pre_43_inl.h
+347 silly gunzTarPerm modified mode [ 'nan_converters_pre_43_inl.h', 436, 438 ]
+348 silly gunzTarPerm extractEntry nan_implementation_12_inl.h
+349 silly gunzTarPerm modified mode [ 'nan_implementation_12_inl.h', 436, 438 ]
+350 silly gunzTarPerm extractEntry nan_implementation_pre_12_inl.h
+351 silly gunzTarPerm modified mode [ 'nan_implementation_pre_12_inl.h', 436, 438 ]
+352 silly gunzTarPerm extractEntry nan_maybe_43_inl.h
+353 silly gunzTarPerm modified mode [ 'nan_maybe_43_inl.h', 436, 438 ]
+354 silly gunzTarPerm extractEntry nan_maybe_pre_43_inl.h
+355 silly gunzTarPerm modified mode [ 'nan_maybe_pre_43_inl.h', 436, 438 ]
+356 silly gunzTarPerm extractEntry nan_new.h
+357 silly gunzTarPerm modified mode [ 'nan_new.h', 436, 438 ]
+358 silly gunzTarPerm extractEntry nan_object_wrap.h
+359 silly gunzTarPerm modified mode [ 'nan_object_wrap.h', 436, 438 ]
+360 silly gunzTarPerm extractEntry nan_persistent_12_inl.h
+361 silly gunzTarPerm modified mode [ 'nan_persistent_12_inl.h', 436, 438 ]
+362 silly gunzTarPerm extractEntry nan_persistent_pre_12_inl.h
+363 silly gunzTarPerm modified mode [ 'nan_persistent_pre_12_inl.h', 436, 438 ]
+364 silly gunzTarPerm extractEntry nan_string_bytes.h
+365 silly gunzTarPerm modified mode [ 'nan_string_bytes.h', 436, 438 ]
+366 silly gunzTarPerm extractEntry nan_typedarray_contents.h
+367 silly gunzTarPerm modified mode [ 'nan_typedarray_contents.h', 436, 438 ]
+368 silly gunzTarPerm extractEntry nan_weak.h
+369 silly gunzTarPerm modified mode [ 'nan_weak.h', 436, 438 ]
+370 silly gunzTarPerm extractEntry CHANGELOG.md
+371 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 436, 438 ]
+372 silly gunzTarPerm extractEntry tools/package.json
+373 silly gunzTarPerm modified mode [ 'tools/package.json', 436, 438 ]
+374 silly gunzTarPerm extractEntry tools/README.md
+375 silly gunzTarPerm modified mode [ 'tools/README.md', 436, 438 ]
+376 silly gunzTarPerm extractEntry tools/1to2.js
+377 silly gunzTarPerm modified mode [ 'tools/1to2.js', 509, 511 ]
+378 verbose write writing to C:\data\book\node_modules\gitbook-plugin-search-pro\node_modules\nodejieba\node_modules\nan\package.json
+379 info preinstall nan@2.3.5
+380 verbose readDependencies loading dependencies from C:\data\book\node_modules\gitbook-plugin-search-pro\node_modules\nodejieba\node_modules\nan\package.json
+381 verbose readDependencies loading dependencies from C:\data\book\node_modules\gitbook-plugin-search-pro\node_modules\nodejieba\node_modules\nan\package.json
+382 silly install resolved []
+383 verbose about to build C:\data\book\node_modules\gitbook-plugin-search-pro\node_modules\nodejieba\node_modules\nan
+384 info build C:\data\book\node_modules\gitbook-plugin-search-pro\node_modules\nodejieba\node_modules\nan
+385 info linkStuff nan@2.3.5
+386 silly linkStuff nan@2.3.5 has C:\data\book\node_modules\gitbook-plugin-search-pro\node_modules\nodejieba\node_modules as its parent node_modules
+387 verbose linkBins nan@2.3.5
+388 verbose linkMans nan@2.3.5
+389 verbose rebuildBundles nan@2.3.5
+390 info install nan@2.3.5
+391 info postinstall nan@2.3.5
+392 verbose unlock done using C:\Users\Holmes\AppData\Roaming\npm-cache\_locks\nan-f3e193ab8806cc8f.lock for C:\data\book\node_modules\gitbook-plugin-search-pro\node_modules\nodejieba\node_modules\nan
+393 verbose about to build C:\data\book\node_modules\gitbook-plugin-search-pro\node_modules\nodejieba
+394 info build C:\data\book\node_modules\gitbook-plugin-search-pro\node_modules\nodejieba
+395 info linkStuff nodejieba@1.4.11
+396 silly linkStuff nodejieba@1.4.11 has C:\data\book\node_modules\gitbook-plugin-search-pro\node_modules as its parent node_modules
+397 verbose linkBins nodejieba@1.4.11
+398 verbose linkMans nodejieba@1.4.11
+399 verbose rebuildBundles nodejieba@1.4.11
+400 verbose rebuildBundles [ 'nan' ]
+401 info install nodejieba@1.4.11
+402 verbose unsafe-perm in lifecycle true
+403 info nodejieba@1.4.11 Failed to exec install script
+404 verbose unlock done using C:\Users\Holmes\AppData\Roaming\npm-cache\_locks\nodejieba-e7eeb5d8f12eec2c.lock for C:\data\book\node_modules\gitbook-plugin-search-pro\node_modules\nodejieba
+405 verbose about to build C:\data\book\node_modules\gitbook-plugin-search-pro
+406 verbose unlock done using C:\Users\Holmes\AppData\Roaming\npm-cache\_locks\gitbook-plugin-search-pr-3fd1344490501d1f.lock for C:\data\book\node_modules\gitbook-plugin-search-pro
+407 verbose stack Error: nodejieba@1.4.11 install: `node-gyp rebuild`
+407 verbose stack Exit status 1
+407 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:217:16)
+407 verbose stack     at emitTwo (events.js:87:13)
+407 verbose stack     at EventEmitter.emit (events.js:172:7)
+407 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:24:14)
+407 verbose stack     at emitTwo (events.js:87:13)
+407 verbose stack     at ChildProcess.emit (events.js:172:7)
+407 verbose stack     at maybeClose (internal/child_process.js:827:16)
+407 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+408 verbose pkgid nodejieba@1.4.11
+409 verbose cwd C:\data\book
+410 error Windows_NT 10.0.14332
+411 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "gitbook-plugin-search-pro" "--save"
+412 error node v4.4.3
+413 error npm  v2.15.1
+414 error code ELIFECYCLE
+415 error nodejieba@1.4.11 install: `node-gyp rebuild`
+415 error Exit status 1
+416 error Failed at the nodejieba@1.4.11 install script 'node-gyp rebuild'.
+416 error This is most likely a problem with the nodejieba package,
+416 error not with npm itself.
+416 error Tell the author that this fails on your system:
+416 error     node-gyp rebuild
+416 error You can get information on how to open an issue for this project with:
+416 error     npm bugs nodejieba
+416 error Or if that isn't available, you can get their info via:
+416 error
+416 error     npm owner ls nodejieba
+416 error There is likely additional logging output above.
+417 verbose exit [ 1, true ]
+418 verbose unbuild node_modules\gitbook-plugin-search-pro\node_modules\nodejieba
+419 info preuninstall nodejieba@1.4.11
+420 info uninstall nodejieba@1.4.11
+421 verbose unbuild rmStuff nodejieba@1.4.11 from C:\data\book\node_modules
+422 verbose unbuild rmStuff in C:\data\book\node_modules\gitbook-plugin-search-pro\node_modules
+423 info postuninstall nodejieba@1.4.11
+424 silly gentlyRm C:\data\book\node_modules\gitbook-plugin-search-pro\node_modules\nodejieba is being purged from base C:\data\book
+425 verbose gentlyRm don't care about contents; nuking C:\data\book\node_modules\gitbook-plugin-search-pro\node_modules\nodejieba
+426 silly vacuum-fs purging C:\data\book\node_modules\gitbook-plugin-search-pro\node_modules\nodejieba
+427 silly vacuum-fs removing C:\data\book\node_modules\gitbook-plugin-search-pro\node_modules
+428 silly vacuum-fs quitting because other entries in C:\data\book\node_modules\gitbook-plugin-search-pro
+429 verbose unbuild node_modules\gitbook-plugin-search-pro
+430 info preuninstall gitbook-plugin-search-pro@1.0.9
+431 info uninstall gitbook-plugin-search-pro@1.0.9
+432 verbose unbuild rmStuff gitbook-plugin-search-pro@1.0.9 from C:\data\book\node_modules
+433 info postuninstall gitbook-plugin-search-pro@1.0.9
+434 silly gentlyRm C:\data\book\node_modules\gitbook-plugin-search-pro is being purged from base C:\data\book
+435 verbose gentlyRm don't care about contents; nuking C:\data\book\node_modules\gitbook-plugin-search-pro
+436 silly vacuum-fs purging C:\data\book\node_modules\gitbook-plugin-search-pro
+437 silly vacuum-fs quitting because other entries in C:\data\book\node_modules
