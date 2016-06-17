@@ -1,0 +1,10 @@
+{
+    "plugins": [
+        "localized-footer"
+    ],
+    "pluginsConfig": {
+        "localized-footer": {
+            "filename": "FOOTER.md"
+        }
+    }
+}
