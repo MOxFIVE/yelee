@@ -12,9 +12,14 @@
     使用 RSS 需先安装对应插件 <a href="https://github.com/hexojs/hexo-generator-feed" target="_blank">https://github.com/hexojs/hexo-generator-feed</a>
 </blockquote>
 
-## 目前支持的图标如下：
+## 部分支持的图标如下：
 
 ![社交图标](/src/social-icon.png)
+
+
+<blockquote class="example">
+    完整支持列表请查看当前主题配置文件 <a href="https://github.com/MOxFIVE/hexo-theme-yelee/blob/master/_config.yml" target="_blank">_config.yml</a>
+</blockquote>
 
 ```yaml
 subnav:
@@ -34,20 +39,6 @@ subnav:
   #Facebook: "#"
   #Google: "#"
   #Twitter: "#"
-  #LinkedIn: "#"
-  #QQ: "#"
-  #微信: "Wechat"
-  #PayPal: "#"
-  #StackOverflow: "#"
-  #CodePen: ""
-  #Plunker: ""
-  #Instagram: "#"
-  #Flickr: "#"
-  #reddit: ""
-  #Medium: ""
-  #TiddlyWiki: ""
-  #Tumblr: ""
-  #_500px: ""
 ```
 
 <blockquote class="example">
