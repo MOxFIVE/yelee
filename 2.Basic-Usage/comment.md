@@ -12,6 +12,13 @@ preload_comment: true
 ## false: 当点击评论条等区域时再加载评论模块
 ```
 
+## 评论数显示
+选择是否在主页文章标题旁显示评论数（支持 多说 和 Disqus）
+
+```
+show_count: false
+```
+
 ## Disqus
 ![Disqus](/src/disqus.png)
 

@@ -11,13 +11,13 @@
 
 <p class="center-align no-underline">
     <a href="https://github.com/MOxFIVE/hexo-theme-yelee/watchers" target="_blank">
-        <img src="https://img.shields.io/github/watchers/MOxFIVE/hexo-theme-yelee.svg?style=social&amp;label=Watch&amp;maxAge=2592000" alt="GitHub watchers">
+        <img src="https://img.shields.io/github/watchers/MOxFIVE/hexo-theme-yelee.svg?style=social&amp;label=Watch" alt="GitHub watchers">
     </a>&ensp;
     <a href="https://github.com/MOxFIVE/hexo-theme-yelee/stargazers" target="_blank">
-        <img src="https://img.shields.io/github/stars/MOxFIVE/hexo-theme-yelee.svg?style=social&amp;label=Star&amp;maxAge=2592000" alt="GitHub stars" target="_blank">
+        <img src="https://img.shields.io/github/stars/MOxFIVE/hexo-theme-yelee.svg?style=social&amp;label=Star" alt="GitHub stars" target="_blank">
     </a>&ensp;
     <a href="https://github.com/MOxFIVE/hexo-theme-yelee/network" target="_blank">
-        <img src="https://img.shields.io/github/forks/MOxFIVE/hexo-theme-yelee.svg?style=social&amp;label=Fork&amp;maxAge=2592000" alt="GitHub forks">
+        <img src="https://img.shields.io/github/forks/MOxFIVE/hexo-theme-yelee.svg?style=social&amp;label=Fork" alt="GitHub forks">
     </a>
 </p>
 
