@@ -19,7 +19,7 @@ preload_comment: true
 show_count: false
 ```
 
-## Disqus
+## 1. Disqus
 ![Disqus](/src/disqus.png)
 
 注册 Disqus，获取 `shortname`，然后填入下方对应区域
@@ -31,7 +31,7 @@ disqus:
   shortname: 
 ```
 
-## 多说
+## 2. 多说
 ![多说](/src/duoshuo.png)
 http://duoshuo.com/create-site/
 
@@ -53,7 +53,7 @@ duoshuo:
     <a href="http://moxfive.xyz/2015/09/29/duoshuo-style/" target="_blank">多说样式折腾记录 — 添加 UA 浏览器标识、旋转头像等</a>
 </blockquote>
 
-## 友言
+## 3. 友言
 ![友言](/src/youyan.png)
 http://www.uyan.cc/index.php
 

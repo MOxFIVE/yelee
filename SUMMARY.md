@@ -29,7 +29,6 @@
     * [列表标记](3.Style-Customisation/list-type.md)
     * [主题配色方案](3.Style-Customisation/color-scheme.md)
     * [左边栏宽度](3.Style-Customisation/left-col-width.md)
-    * [目录标题不换行](3.Style-Customisation/toc-nowrap.md)
     * [页面进度条](3.Style-Customisation/progress-bar.md)
     * [苹果图标](3.Style-Customisation/apple-touch-icon.md)
     * [提示框美化](3.Style-Customisation/tooltips.md)
