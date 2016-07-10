@@ -481,20 +481,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5.10" data-path="../3.Style-Customisation/toc-nowrap.html">
-            
-                <a href="../3.Style-Customisation/toc-nowrap.html">
-            
-                    
-                    目录标题不换行
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.5.11" data-path="../3.Style-Customisation/progress-bar.html">
+        <li class="chapter " data-level="1.5.10" data-path="../3.Style-Customisation/progress-bar.html">
             
                 <a href="../3.Style-Customisation/progress-bar.html">
             
@@ -507,7 +494,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5.12" data-path="../3.Style-Customisation/apple-touch-icon.html">
+        <li class="chapter " data-level="1.5.11" data-path="../3.Style-Customisation/apple-touch-icon.html">
             
                 <a href="../3.Style-Customisation/apple-touch-icon.html">
             
@@ -520,7 +507,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5.13" data-path="../3.Style-Customisation/tooltips.html">
+        <li class="chapter " data-level="1.5.12" data-path="../3.Style-Customisation/tooltips.html">
             
                 <a href="../3.Style-Customisation/tooltips.html">
             
@@ -844,7 +831,8 @@
                                 
                                 <h1 id="&#x6587;&#x7AE0;&#x76EE;&#x5F55;">&#x6587;&#x7AE0;&#x76EE;&#x5F55;</h1>
 <p>&#x914D;&#x7F6E;&#x4E2D;&#x542F;&#x7528;&#x76EE;&#x5F55;</p>
-<pre><code class="lang-yaml"><span class="hljs-attr">toc:</span> <span class="hljs-literal">true</span>
+<pre><code class="lang-yaml"><span class="hljs-attr">toc:</span>
+<span class="hljs-attr">  on:</span> <span class="hljs-literal">true</span>
 </code></pre>
 <p>&#x6307;&#x5B9A;&#x6587;&#x7AE0;&#x4E2D;&#x5173;&#x95ED;&#x76EE;&#x5F55; <code>toc: false</code></p>
 <pre><code class="lang-yaml"><span class="hljs-attr">title:</span> Hello World
@@ -852,12 +840,32 @@
 <span class="hljs-attr">toc:</span> <span class="hljs-literal">false</span>
 <span class="hljs-meta">---</span>
 </code></pre>
+<p><img src="../src/feat.toc.gif" alt="&#x76EE;&#x5F55;"></p>
+<h2 id="1-&#x76EE;&#x5F55;&#x5E8F;&#x53F7;">1. &#x76EE;&#x5F55;&#x5E8F;&#x53F7;</h2>
+<p>&#x662F;&#x5426;&#x663E;&#x793A;&#x76EE;&#x5F55;&#x6807;&#x9898;&#x524D;&#x7684;&#x5E8F;&#x53F7;</p>
+<pre><code class="lang-yaml"><span class="hljs-attr">toc:</span>
+<span class="hljs-attr">  list_number:</span> <span class="hljs-literal">true</span>
+</code></pre>
+<p>&#x6307;&#x5B9A;&#x6587;&#x7AE0;&#x4E2D;&#x9690;&#x85CF;&#x76EE;&#x5F55;&#x5E8F;&#x53F7; <code>toc_list_number: false</code></p>
+<pre><code class="lang-yaml"><span class="hljs-attr">title:</span> Hello World
+<span class="hljs-attr">toc_list_number:</span> <span class="hljs-literal">false</span>
+<span class="hljs-meta">---</span>
+</code></pre>
 <blockquote class="note">
     &#x6587;&#x7AE0;&#x5185;&#x76EE;&#x5F55;&#x8BBE;&#x7F6E;&#x7684;&#x4F18;&#x5148;&#x7EA7;&#x9AD8;&#x4E8E;&#x4E3B;&#x9898;&#x9ED8;&#x8BA4;&#x8BBE;&#x7F6E;
 </blockquote>
 
-<p><img src="../src/feat.toc.gif" alt="&#x80CC;&#x666F;">
-<div id="page-footer"><hr><p>
+<h2 id="2-&#x76EE;&#x5F55;&#x6700;&#x5927;&#x7EA7;&#x6570;">2. &#x76EE;&#x5F55;&#x6700;&#x5927;&#x7EA7;&#x6570;</h2>
+<p>&#x53EF;&#x9009;&#x503C;&#xFF1A;1 - 6&#xFF0C;&#x9ED8;&#x8BA4; 3 &#xFF08;&#x8868;&#x793A;&#x76EE;&#x5F55;&#x4E2D;&#x53EA;&#x663E;&#x793A;&#x5230;&#x4E09;&#x7EA7;&#x6807;&#x9898; <code>### H3</code>&#xFF0C;&#x518D;&#x6B21;&#x7EA7;&#x7684;&#x6807;&#x9898;&#x4F1A;&#x88AB;&#x9690;&#x85CF;&#xFF09;</p>
+<pre><code>toc:
+  max_depth: 3
+</code></pre><h2 id="3-&#x6807;&#x9898;&#x4E0D;&#x6362;&#x884C;">3. &#x6807;&#x9898;&#x4E0D;&#x6362;&#x884C;</h2>
+<p>&#x76EE;&#x5F55;&#x533A;&#x7684;&#x6807;&#x9898;&#x4FDD;&#x6301;&#x5355;&#x884C;&#x663E;&#x793A;&#xFF0C;&#x6709;&#x622A;&#x65AD;&#x5219;&#x5728;&#x884C;&#x672B;&#x663E;&#x793A; <code>...</code>&#xFF0C;&#x9F20;&#x6807;&#x60AC;&#x505C;&#x65F6;&#x663E;&#x793A;&#x5B8C;&#x6574;&#x6807;&#x9898;</p>
+<pre><code class="lang-yaml"><span class="hljs-attr">toc:</span>
+<span class="hljs-attr">  nowrap:</span> <span class="hljs-literal">false</span>
+</code></pre>
+<p><img src="../src/toc-nowrap.gif" alt="&#x5355;&#x884C;&#x6807;&#x9898;"></p>
+<p><div id="page-footer"><hr><p>
     <a href="https://github.com/MOxFIVE/yelee/issues" target="_blank">&#x2192; &#x6587;&#x6863;&#x95EE;&#x9898;&#x53CD;&#x9988;</a> 
     <a href="https://github.com/MOxFIVE/yelee/issues" target="_blank">
         <img src="https://img.shields.io/github/issues-raw/MOxFIVE/yelee.svg?maxAge=2592000" alt="">
@@ -912,7 +920,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"文章目录","level":"1.6.1","depth":2,"next":{"title":"文末版权信息","level":"1.6.2","depth":2,"path":"4.Page-Setup/copyright.info.md","ref":"4.Page-Setup/copyright.info.md","articles":[]},"previous":{"title":"4. 页面设置","level":"1.6","depth":1,"path":"4.Page-Setup/index.md","ref":"4.Page-Setup/index.md","articles":[{"title":"文章目录","level":"1.6.1","depth":2,"path":"4.Page-Setup/toc.md","ref":"4.Page-Setup/toc.md","articles":[]},{"title":"文末版权信息","level":"1.6.2","depth":2,"path":"4.Page-Setup/copyright.info.md","ref":"4.Page-Setup/copyright.info.md","articles":[]},{"title":"左边栏鸟屋","level":"1.6.3","depth":2,"path":"4.Page-Setup/birdhouse.md","ref":"4.Page-Setup/birdhouse.md","articles":[]},{"title":"新窗口打开链接","level":"1.6.4","depth":2,"path":"4.Page-Setup/open-in-new-tab.md","ref":"4.Page-Setup/open-in-new-tab.md","articles":[]},{"title":"动画效果","level":"1.6.5","depth":2,"path":"4.Page-Setup/animate.md","ref":"4.Page-Setup/animate.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["localized-footer"],"pluginsConfig":{"localized-footer":{"filename":"FOOTER.md"},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"4.Page-Setup/toc.md","mtime":"2016-06-15T16:29:21.525Z","type":"markdown"},"gitbook":{"version":"3.1.1","time":"2016-06-28T14:42:21.951Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"文章目录","level":"1.6.1","depth":2,"next":{"title":"文末版权信息","level":"1.6.2","depth":2,"path":"4.Page-Setup/copyright.info.md","ref":"4.Page-Setup/copyright.info.md","articles":[]},"previous":{"title":"4. 页面设置","level":"1.6","depth":1,"path":"4.Page-Setup/index.md","ref":"4.Page-Setup/index.md","articles":[{"title":"文章目录","level":"1.6.1","depth":2,"path":"4.Page-Setup/toc.md","ref":"4.Page-Setup/toc.md","articles":[]},{"title":"文末版权信息","level":"1.6.2","depth":2,"path":"4.Page-Setup/copyright.info.md","ref":"4.Page-Setup/copyright.info.md","articles":[]},{"title":"左边栏鸟屋","level":"1.6.3","depth":2,"path":"4.Page-Setup/birdhouse.md","ref":"4.Page-Setup/birdhouse.md","articles":[]},{"title":"新窗口打开链接","level":"1.6.4","depth":2,"path":"4.Page-Setup/open-in-new-tab.md","ref":"4.Page-Setup/open-in-new-tab.md","articles":[]},{"title":"动画效果","level":"1.6.5","depth":2,"path":"4.Page-Setup/animate.md","ref":"4.Page-Setup/animate.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["localized-footer"],"pluginsConfig":{"localized-footer":{"filename":"FOOTER.md"},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"4.Page-Setup/toc.md","mtime":"2016-07-10T13:37:54.980Z","type":"markdown"},"gitbook":{"version":"3.1.1","time":"2016-07-10T13:39:32.675Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
