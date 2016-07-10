@@ -38,6 +38,7 @@
     * [左边栏鸟屋](4.Page-Setup/birdhouse.md)
     * [新窗口打开链接](4.Page-Setup/open-in-new-tab.md)
     * [动画效果](4.Page-Setup/animate.md)
+    * [标签标题切换](4.Page-Setup/tab-title.md)
 * [5. 第三方服务](5.Vendor/index.md)
     * [图片浏览器](5.Vendor/fancybox.md)
     * [数学公式显示](5.Vendor/mathjax.md)
