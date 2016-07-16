@@ -15,4 +15,12 @@ original: false
 ---
 ```
 
+## 原始链接设置
+
+修改 [站点配置](https://hexo.io/zh-cn/docs/configuration.html#网址) 文件中 `url` 的值为你的网站域名
+
+```
+url: http://MOxFIVE.xyz
+```
+
 ![文末版权信息](/src/copyright.info.png)
