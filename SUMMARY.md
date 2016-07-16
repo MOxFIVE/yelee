@@ -6,6 +6,7 @@
     * [安装主题](1.Getting-Started/installation.md)
     * [主题更新](1.Getting-Started/update-theme.md)
     * [语言切换](1.Getting-Started/i18n.md)
+    * [HTTPS 事项](1.Getting-Started/https.md)
 * [2. 基础设置](2.Basic-Usage/index.md)
     * [个人头像](2.Basic-Usage/avatar.md)
     * [文章摘要](2.Basic-Usage/post-excerpt.md)
