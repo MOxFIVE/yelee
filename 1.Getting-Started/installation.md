@@ -15,7 +15,7 @@ git clone https://github.com/MOxFIVE/hexo-theme-yelee.git themes/yelee
 再修改 Hexo 根目录对应配置文件 `_config.yml`，即可切换到 Yelee 主题
 
 ```yaml
-theme: Yelee
+theme: yelee
 ```
 
 ![安装说明1](/src/installation-1.png)
